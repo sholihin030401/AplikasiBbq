@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456920479500",
+    "firebase_url": "https://aplikasibbq.firebaseio.com",
+    "project_id": "aplikasibbq",
+    "storage_bucket": "aplikasibbq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456920479500:android:16466459fe1da9f718fb29",
+        "android_client_info": {
+          "package_name": "com.project.ichwan.aplikasibbq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456920479500-o9qf9ep0tgpavpnkhr0gtenrftkm4ecq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.ichwan.aplikasibbq",
+            "certificate_hash": "1d4a2a5bdca3ef01af747485019cd47c0bf9e9f2"
+          }
+        },
+        {
+          "client_id": "456920479500-djvm2fgdn3g7htkr12pt7ldebnphc5mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ_VOsKvLsxypod_iQlm0EWhcPy1Q7uJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456920479500-djvm2fgdn3g7htkr12pt7ldebnphc5mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

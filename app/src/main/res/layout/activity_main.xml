@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_image_black_24dp"
+        android:id="@+id/imageViewAdd"
+        android:scaleType="fitXY"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputImageName"
+        android:hint="@string/masukkan_gambar"
+        android:layout_below="@id/imageViewAdd"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProgress"
+        android:layout_below="@id/inputImageName"
+        android:textSize="30sp"
+        android:text="@string/_0"
+        android:layout_centerHorizontal="true"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@id/tvProgress"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpload"
+        android:text="@string/upload"
+        android:layout_below="@id/progressBar"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

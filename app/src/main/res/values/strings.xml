@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AplikasiBbq</string>
+    <string name="masukkan_gambar">Masukkan Gambar</string>
+    <string name="_0">0%</string>
+    <string name="upload">Upload</string>
+    <string name="search">Search</string>
+    <string name="testing">Testing</string>
+    <string name="delete">Delete</string>
+
+</resources>
